@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    font-family:  'Lato', sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    margin-top: 5%;
+    color: grey;
+    margin-bottom: 7%;
+}
+.orange{
+    color: deeppink;
+    font-weight: 700;
+}
+.margin-top{
+    margin-top: 17%;
+    margin-left: 15%;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 15%;
+}
+.top-banar{
+    height: 700px;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.btn{
+    text-decoration: none;
+    background-color: magenta;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: deeppink;
+    transition: all 2s ease;
+}
+.margin-left {
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.margin-right{
+    margin-left: 9%;
+    margin-top: 20%;
+}
+.biography-area{
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: right right;
+    background-size: cover;
+}
+.work{
+    margin-left: 5%;
+}
+.work h1{
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 3%;
+    font-weight: 700;
+}
+.work-img img{
+    width: 27%;
+   height: 30%;
+   float: left;
+   margin-left: 3%;
+}
+.latest-work-bg{
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    background-size: cover;
+}
+.say{
+    text-align: center;
+    padding: 30px;
+    font-weight: 700;
+}
+.client{
+    margin-top: 5%;
+    text-align: center;
+}
+.client-text{
+    text-align: center;
+    margin-top: 5%;
+}
+.footer-bg{
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    margin-top: 5%;
+    margin-left: 24%;
+    width: 45%;
+    background-color: deeppink;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+footer p{
+    text-align: center;
+}
